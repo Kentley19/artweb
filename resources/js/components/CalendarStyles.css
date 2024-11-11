@@ -1,0 +1,24 @@
+.tile-active {
+    background-color: green; /* Green for not due */
+    color: white; /* Text color */
+  }
+  
+  .tile-due {
+    background-color: red; /* Red for due */
+    color: white; /* Text color */
+  }
+  .react-calendar {
+    max-width: 500px; /* Set desired width */ 
+    margin:0 auto;
+    left: 50%;
+    width: 100%; /* Set desired height */
+  }.calendar-container { 
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */ 
+    padding: 15px;
+    margin: 15px;
+    width: 98%;
+  }
+  
